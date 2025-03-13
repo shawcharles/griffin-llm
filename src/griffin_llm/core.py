@@ -1,7 +1,7 @@
 class LLMClient:
     """Main interface for Griffin LLM operations"""
     
-    def __init__(self, model_path: str = "shawcharles/griffin-base"):
+    def __init__(self, model_path: str = "HuggingFaceH4/zephyr-7b-beta"):  # Validated base model
         self.model_path = model_path
         self._load_model()
 
